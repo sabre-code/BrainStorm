@@ -22,8 +22,7 @@ void main()
     {
         fp = fopen("fileToDoList.DAT", "wb+");
 
-        if (fp == NULL)
-        {
+        if (fp == NULL){
             puts("Cannot open file");
             exit(0);
         }
